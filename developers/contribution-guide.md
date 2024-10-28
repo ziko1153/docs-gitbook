@@ -114,7 +114,7 @@ We use VueJS to power the frontend. The interaction between the frontend and the
 We use the following architecture to serve views from the backend.
 
 * **Controllers** call a view helper, sometimes a [service](contribution-guide.md#services) and render a view.&#x20;
-* If the view needs data, **view velpers** prepare the data that is needed. No data should be prepared in a controller directly, so we can test the view helper in isolation.
+* If the view needs data, **view helpers** prepare the data that is needed. No data should be prepared in a controller directly, so we can test the view helper in isolation.
 * Views are VueJS files.
 
 ### Localization
